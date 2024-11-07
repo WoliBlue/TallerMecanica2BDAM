@@ -3,7 +3,7 @@
 Proyecto para Medinilla de un taller de mecánica
 
 
-## Authors
+## AUTORES
 
 - [@Jose Arenas](https://github.com/WoliBlue)
 - [@Sergio Suarez](https://github.com/SeRGioNaS)
