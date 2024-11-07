@@ -1,0 +1,223 @@
+
+/* Add font files for Outfit */
+@font-face {
+  font-family: 'Outfit';
+  src: url('fonts/outfit.woff2') format('woff2'),
+       url('fonts/outfit.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --s1: rgba(255, 143, 45, 1);
+  --s3: rgba(0, 0, 0, 1);
+  --s4: rgba(255, 255, 255, 1);
+  --s2: rgba(242, 183, 5, 1);
+  --s3: rgba(242, 116, 5, 1);
+  --s5: rgba(242, 159, 5, 1);
+  --s6: rgba(217, 82, 4, 1);
+  --s7: rgba(243, 141, 52, 1);
+  --s2-5: rgba(234, 180, 19, 1);
+  --font-family-outfit: 'Outfit', sans-serif;
+}
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icongrande-1-2 {
+  width: 100%;
+  height: auto;
+}
+
+.rectangle-3003-4 {
+  border-radius: 20px;
+}
+
+.text-6 {
+  font-size: 32px;
+  font-family: var(--font-family-outfit);
+  font-weight: bold;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.text-10 {
+  font-size: 16px;
+  font-family: var(--font-family-outfit);
+  font-weight: 500;
+  text-align: left;
+  color: rgba(242, 183, 5, 1);
+}
+
+.input-9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 16px 16px 16px 16px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 449px;
+  width: 449px;
+  height: 56px;
+  background-color: rgba(250, 250, 250, 1);
+  border-radius: 8px;
+}
+
+.text-12 {
+  font-size: 16px;
+  font-family: var(--font-family-outfit);
+  font-weight: 500;
+  text-align: left;
+  color: rgba(242, 183, 5, 1);
+}
+
+.vector-15 {
+  border: 1.5px solid rgba(242, 183, 5, 1);
+}
+
+.vector-16 {
+  border: 1.5px solid rgba(242, 183, 5, 1);
+}
+
+.vector-17 {
+  border: 1.5px solid rgba(242, 183, 5, 1);
+}
+
+.group-14 {}
+
+.eye-off-13 {}
+
+.input-11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 16px 16px 16px 16px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 449px;
+  width: 449px;
+  height: 56px;
+  background-color: rgba(250, 250, 250, 1);
+  border-radius: 8px;
+}
+
+.checkbox-unchecked-21 {
+  border: 1px solid rgba(203, 213, 224, 1);
+}
+
+.check-20 {}
+
+.text-22 {
+  font-size: 16px;
+  font-family: var(--font-family-outfit);
+  font-weight: 500;
+  text-align: left;
+  color: rgba(17, 24, 39, 1);
+}
+
+.remember-me-19 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.action-18 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 164px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 122px;
+  width: 122px;
+}
+
+.input-8 {}
+
+.text-24 {
+  font-size: 16px;
+  font-family: var(--font-family-outfit);
+  font-weight: bold;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.button-23 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 8px 8px 8px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 449px;
+  width: 449px;
+  height: 56px;
+  background-color: var(--s2);
+  border-radius: 8px;
+}
+
+.content-login-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  height: 276px;
+}
+
+.text-25 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.login-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 449px;
+  width: 449px;
+  height: 542px;
+}
+
+.group-1000000891-3 {}
+
+.node-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  padding: 38px 453px 38px 453px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 1440px;
+  width: 1440px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: var(--s7);
+  border-radius: 40px;
+}
