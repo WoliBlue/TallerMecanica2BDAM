@@ -25,6 +25,7 @@ public class VPopUp extends JFrame {
 	private JTextField txtNombre;
 	private ConexionBD conexion;
 
+
 	/**
 	 * Launch the application.
 	 */
@@ -94,7 +95,7 @@ public class VPopUp extends JFrame {
 		contentPane.add(btnAtrs);
 		
 	}
-	public VPopUp(ConexionBD conexion, String dni, String nombre) {
+	public VPopUp(ConexionBD conexion, JTable tabla, String dni, String nombre) {
 		this.conexion = conexion;
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
@@ -132,6 +133,7 @@ public class VPopUp extends JFrame {
 				String nuevoDni = txtDni.getText();
 				String nuevoNombre = txtNombre.getText();
 				conexion.actualizarCliente(dni, nuevoDni, nuevoNombre);
+				tabla.setModel(conexion.cargarCliente());
 				dispose();
 			}
 		});

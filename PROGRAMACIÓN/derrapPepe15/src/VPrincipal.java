@@ -55,6 +55,7 @@ public class VPrincipal extends JFrame {
 	private JLabel lblNewGuia;
 	private JLabel lblConsulteLaGuia;
 	private JLabel lblPeroSobretodoDisfruta;
+	private JButton btnCrearCliente;
 
 	public VPrincipal(ConexionBD conexion, String nombreUsuario) {
 		this.conexion = conexion;
@@ -298,7 +299,7 @@ public class VPrincipal extends JFrame {
 					int filaSeleccionada = tablaCliente.getSelectedRow();
 					String dni = tablaCliente.getValueAt(filaSeleccionada, 0).toString();
 					String nombre = tablaCliente.getValueAt(filaSeleccionada, 1).toString();
-					VPopUp v1 = new VPopUp(conexion, dni, nombre);
+					VPopUp v1 = new VPopUp(conexion, tablaCliente, dni, nombre);
 					v1.setVisible(true);
 					v1.setLocationRelativeTo(null);
 				}catch (Exception ex) {
@@ -320,6 +321,17 @@ public class VPrincipal extends JFrame {
 		btnActualizarCli.setFont(new Font("MS PGothic", Font.PLAIN, 19));
 		btnActualizarCli.setBounds(925, 205, 183, 23);
 		panel_Cliente.add(btnActualizarCli);
+		
+		btnCrearCliente = new JButton("Crear Cliente");
+		btnCrearCliente.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				VPopUp crearClente = new VPopUp( );
+				
+			}
+		});
+		btnCrearCliente.setFont(new Font("MS PGothic", Font.PLAIN, 19));
+		btnCrearCliente.setBounds(925, 159, 183, 23);
+		panel_Cliente.add(btnCrearCliente);
 
 		JPanel panel_Vehiculo = new JPanel();
 		panel_Vehiculo.setBackground(new Color(255, 143, 45));
